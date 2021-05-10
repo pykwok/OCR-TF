@@ -15,7 +15,7 @@ CRNN模型是CNN模型和RNN模型组合而成的模型。CNN模型用于对图�
 3. 转录层，将每一帧的预测变为最终的标签序列。
 
 
-![crnn](.\img\crnn_structure.png)
+![crnn](./img/crnn_structure.png)
 
 
 
@@ -26,7 +26,7 @@ CRNN模型是CNN模型和RNN模型组合而成的模型。CNN模型用于对图�
 ### 1.1 数据集介绍
 数据集来自国际文档分析与识别大会（International Conference on Document Analysis and Recognition, ICDAR）的Focused Scene Text比赛的 [Task 2.1: Text Localization (2013 edition) 数据集](https://rrc.cvc.uab.es/?ch=2&com=tasks)。
 
-![data](.\img\data.png)
+![data](./img/data.png)
 
 ```
 └─data
@@ -47,7 +47,7 @@ CRNN模型是CNN模型和RNN模型组合而成的模型。CNN模型用于对图�
 
 之后运行`dataset.py`制作数据集
 
-![dataset](.\img\dataset.png)
+![dataset](./img/dataset.png)
 
 ## 2、Training
 
@@ -55,4 +55,4 @@ CRNN模型是CNN模型和RNN模型组合而成的模型。CNN模型用于对图�
 python train.py
 ```
 
-![result](.\img\result.png)
+![result](./img/result.png)
